@@ -1,0 +1,6 @@
+cluster,size,share_ratio_above_threshold,share_negative_silhouette,mean_silhouette
+0,5851,0.1029,0.0145,0.3594
+1,2959,0.1433,0.0358,0.2780
+2,2013,0.1624,0.0586,0.2722
+3,521,0.0038,0.0000,0.5878
+4,2199,0.0982,0.0000,0.4809

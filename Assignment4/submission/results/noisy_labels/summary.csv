@@ -1,0 +1,11 @@
+setting,condition,trials,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,train_label_error_mean,trials_repaired_beats_noisy,repair_neighbors,repair_threshold
+clean,clean,1,0.9313,,0.9409,,0.0000,,,
+clean,repaired,1,0.9306,,0.9402,,0.0321,,15,0.7
+uniform_20,noisy,10,0.9310,0.0013,0.9407,0.0012,0.1990,,,
+uniform_20,repaired,10,0.9301,0.0012,0.9400,0.0014,0.0690,2,45,0.7
+uniform_40,noisy,10,0.9287,0.0013,0.9383,0.0013,0.3975,,,
+uniform_40,repaired,10,0.9285,0.0017,0.9383,0.0018,0.3348,4,15,0.7
+nearest_20,noisy,10,0.9280,0.0018,0.9388,0.0015,0.2009,,,
+nearest_20,repaired,10,0.9289,0.0017,0.9397,0.0014,0.1348,8,5,0.5
+nearest_40,noisy,10,0.9050,0.0097,0.9137,0.0104,0.3986,,,
+nearest_40,repaired,10,0.9125,0.0065,0.9230,0.0066,0.2405,9,45,0.6
